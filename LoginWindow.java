@@ -1,8 +1,8 @@
 /*
  * Stage: Development-01
- * @author: Vedat Vatan
- * @author: Uğur Türkel
- * @author: Süleyman Mehmet Güneş
+ * @author: Uğur Türkel, 119200070
+ * @author: Vedat Vatan, 120200148
+ * @author: Süleyman Mehmet Güneş, 119200077
  *
  */
 
