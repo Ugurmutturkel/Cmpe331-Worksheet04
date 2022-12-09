@@ -1,7 +1,8 @@
 /*
  * Stage: Development-01
- * @author:
- * @author:
+ * @author: Vedat Vatan
+ * @author: Uğur Türkel
+ * @author: Süleyman Mehmet Güneş
  *
  */
 
