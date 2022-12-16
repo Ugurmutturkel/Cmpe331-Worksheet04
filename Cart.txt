@@ -1,0 +1,16 @@
+2022-12-16
+Number of Apples: 12
+Number of Banana: 12
+Number of Carrots: 12
+Number of Milk: 12
+Date of purchase: 2022-12-16
+Number of Apples: 12
+Number of Banana: 12
+Number of Carrots: 12
+Number of Milk: 12
+Date of purchase: 2022-12-16
+Number of Apples: 1
+Number of Banana: 12
+Number of Carrots: 12
+Number of Milk: 12
+ 
