@@ -31,8 +31,7 @@ public class NewWindow extends JFrame implements ActionListener {
 		
 		setLayout(new GridLayout(5,2));
 		setTitle("Cart");
-		
-		
+		// Added items to choose from
 		apple = new JLabel("Apple", SwingConstants.CENTER);
 		Tapple = new JTextField();
 		
@@ -47,9 +46,11 @@ public class NewWindow extends JFrame implements ActionListener {
 		milk = new JLabel("Milk", SwingConstants.CENTER);
 		Tmilk = new JTextField();
 		
+		// Added buttons to interact with the UI
 		add_to_cart = new JButton("Add to cart");
 		empty_cart = new JButton("empty cart");
 		
+		// UI is updated with the labels, buttons, and inputs
 		add(apple);
 		add(Tapple);
 		
@@ -74,11 +75,10 @@ public class NewWindow extends JFrame implements ActionListener {
 		setVisible(true);
 
 	}
-	public static void main(String[] args) {
-		new NewWindow();
-	}
+
 	@Override
 	public void actionPerformed(ActionEvent e) {
+		// We record the orders to Cart.txt file
 		if (e.getSource()==add_to_cart) {
 			FileWriter writer;
 			try {
@@ -95,12 +95,12 @@ public class NewWindow extends JFrame implements ActionListener {
 			}
 			dispose();
 		}
+		// It reset the cart
 		if (e.getSource()==empty_cart) {
 			Tapple.setText("");
 			TBanana.setText("");
 			Tcarrots.setText("");
 			Tmilk.setText("");
-			
 			
 		}
 		
